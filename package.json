@@ -1,0 +1,22 @@
+{
+  "name": "discovery-center-school-website",
+  "version": "1.0.0",
+  "description": "Modern website for The Discovery Center School - San Francisco K-12 Education",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "deploy": "wrangler pages deploy .",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "education",
+    "school",
+    "san-francisco",
+    "k-12"
+  ],
+  "author": "Discovery Center School",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
