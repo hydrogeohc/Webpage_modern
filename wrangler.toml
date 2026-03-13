@@ -1,0 +1,5 @@
+# Cloudflare Pages Configuration for Discovery Center School Website
+
+name = "dcs-website"
+compatibility_date = "2024-03-13"
+pages_build_output_dir = "."
